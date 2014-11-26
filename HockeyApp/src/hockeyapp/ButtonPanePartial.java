@@ -47,7 +47,7 @@ public class ButtonPanePartial extends HBox {
                 }
                 else{
                     //Cache object in arraylist
-                    //players.add(AddPlayerPartial.getPersonInfo());
+                    players.add(AddPlayerPartial.getPlayerInfo());
                     AddPlayerPartial.clearFields();
                 }
             }    

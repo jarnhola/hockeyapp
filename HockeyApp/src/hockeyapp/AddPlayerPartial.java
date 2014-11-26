@@ -119,6 +119,28 @@ public class AddPlayerPartial extends BorderPane{
         info2.getChildren().add(padSavingField);
     }
     
+    public static final Players getPlayerInfo(){
+
+        Players player = new Players() {};
+
+        player.setName(nameField.getText());
+        player.setName(ageField.getText());
+        player.setName(speedField.getText());
+        player.setName(shootingField.getText());
+        player.setName(passingField.getText());
+        player.setName(puckHandlingField.getText());
+        player.setName(strengthField.getText());
+        player.setName(playmakingField.getText());
+        player.setName(hittingField.getText());
+        player.setName(forecheckingField.getText());
+        player.setName(openingField.getText());
+        player.setName(blockingField.getText());
+        player.setName(gloveSavingField.getText());
+        player.setName(shieldSavingField.getText());
+        player.setName(padSavingField.getText());
+        return player;
+    }
+    
     private void ToggleButtons(){
         buttonC.setToggleGroup(group);
         buttonLW.setToggleGroup(group);
